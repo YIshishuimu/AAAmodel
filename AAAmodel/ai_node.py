@@ -4,8 +4,8 @@ from std_msgs.msg import Int32MultiArray
 import numpy as np
 
 # 假设你的项目结构中可以这样导入（或者把类定义直接放进来）
-from .game import TacticalTicTacToe
-from .AlphaBataBot import AlphaBetaBot
+from AAAmodel.game import TacticalTicTacToe
+from AAAmodel.AlphaBataBot import AlphaBetaBot # 确保类名拼写正确
 
 class SimpleTacticalAiNode(Node):
     def __init__(self):
